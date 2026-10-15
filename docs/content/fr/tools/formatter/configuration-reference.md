@@ -195,6 +195,7 @@ public function bar(
 | Option | Type | Défaut | Description |
 | :--- | :--- | :--- | :--- |
 | `space-before-arrow-function-parameter-list-parenthesis` | booléen | `false` | Espace avant la liste de paramètres de fonction fléchée. |
+| `space-before-return-type-colon` | booléen | `false` | Espace avant le deux-points qui introduit le type de retour des fonctions, méthodes, closures et fonctions fléchées. |
 | `space-before-closure-parameter-list-parenthesis` | booléen | `true` | Espace avant la liste de paramètres de closure. |
 | `space-before-hook-parameter-list-parenthesis` | booléen | `false` | Espace avant la liste de paramètres de hook de propriété. |
 | `inline-abstract-property-hooks` | booléen | `true` | Garder les hooks de propriété abstraits (`get;`, `set;`) sur une seule ligne (PER-CS 4.10). |

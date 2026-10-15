@@ -196,6 +196,7 @@ public function bar(
 | Option | Type | Default | Description |
 | :--- | :--- | :--- | :--- |
 | `space-before-arrow-function-parameter-list-parenthesis` | boolean | `false` | Space before arrow function parameter list. |
+| `space-before-return-type-colon` | boolean | `false` | Space before the colon in function, method, closure, and arrow-function return type declarations. |
 | `space-before-closure-parameter-list-parenthesis` | boolean | `true` | Space before closure parameter list. |
 | `space-before-hook-parameter-list-parenthesis` | boolean | `false` | Space before property-hook parameter list. |
 | `inline-abstract-property-hooks` | boolean | `true` | Keep abstract property hooks (`get;`, `set;`) on one line (PER-CS 4.10). |

@@ -195,6 +195,7 @@ public function bar(
 | 选项 | 类型 | 默认值 | 说明 |
 | :--- | :--- | :--- | :--- |
 | `space-before-arrow-function-parameter-list-parenthesis` | 布尔值 | `false` | 箭头函数参数列表前的空格。 |
+| `space-before-return-type-colon` | 布尔值 | `false` | 函数、方法、闭包和箭头函数返回类型声明的冒号前的空格。 |
 | `space-before-closure-parameter-list-parenthesis` | 布尔值 | `true` | 闭包参数列表前的空格。 |
 | `space-before-hook-parameter-list-parenthesis` | 布尔值 | `false` | 属性钩子参数列表前的空格。 |
 | `inline-abstract-property-hooks` | 布尔值 | `true` | 把抽象属性钩子(`get;`、`set;`)保留在一行(PER-CS 4.10)。 |

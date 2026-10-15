@@ -175,6 +175,7 @@ const DEFAULT_PRESET: FormatSettings = FormatSettings {
     parentheses_in_exit_and_die: true,
     parentheses_in_attribute: false,
     space_before_arrow_function_parameter_list_parenthesis: false,
+    space_before_return_type_colon: false,
     space_before_closure_parameter_list_parenthesis: true,
     space_before_hook_parameter_list_parenthesis: false,
     inline_abstract_property_hooks: true,
