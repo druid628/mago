@@ -112,12 +112,14 @@ mod tests {
             print-width = 100
             tab-width = 2
             use-tabs = true
+            space-before-return-type-colon = true
         "#;
 
         let config: FormatterConfiguration = toml::from_str(toml).unwrap();
         assert_eq!(config.settings.print_width, 100);
         assert_eq!(config.settings.tab_width, 2);
         assert!(config.settings.use_tabs);
+        assert!(config.settings.space_before_return_type_colon);
     }
 
     #[test]

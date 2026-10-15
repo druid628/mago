@@ -150,6 +150,7 @@ test_case!(parameter_attribute_on_new_line_disabled);
 test_case!(parameter_attribute_on_new_line_preserve);
 test_case!(parameter_attribute_on_new_line_disabled_preserve);
 test_case!(no_space_before_enum_backing_type_colon);
+test_case!(space_before_return_type_colon);
 test_case!(closing_echo_tag_preserved);
 test_case!(echo_single_multiline_value);
 test_case!(echo_single_expanding_value);

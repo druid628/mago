@@ -949,6 +949,14 @@ generate_formatter_settings! {
     /// Default: false
     space_before_arrow_function_parameter_list_parenthesis: bool => "default_false",
 
+    /// Whether to add a space before the colon in return type declarations.
+    ///
+    /// When enabled: `function foo() : void`
+    /// When disabled: `function foo(): void`
+    ///
+    /// Default: false
+    space_before_return_type_colon: bool => "default_false",
+
     /// Whether to add a space before the opening parameters in closures.
     ///
     /// When enabled: `function ($x) use ($y)`
